@@ -5,12 +5,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : 0,
-    "15D5C46A6AB109525EF159B8550C295CAD9F2755" : 0
+    "15D5C46A6AB109525EF159B8550C295CAD9F2755" : 0,
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DBF339D-0B74-44BF-81B7-F06A13228563",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : "blog-backend\/",
-    "15D5C46A6AB109525EF159B8550C295CAD9F2755" : "Unclutter.nl-Backend\/"
+    "15D5C46A6AB109525EF159B8550C295CAD9F2755" : "Unclutter.nl-Backend\/",
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : "blog-backend\/Packages\/libc-0.1.0\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "blog-backend",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/siemensikkema\/blog-backend.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DD31E206670D556C1FE94BF0E11FA09821BE8CB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qutheory\/libc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45"
     }
   ]
 }
