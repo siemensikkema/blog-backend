@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8DD31E206670D556C1FE94BF0E11FA09821BE8CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : 0,
+    "15D5C46A6AB109525EF159B8550C295CAD9F2755" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DBF339D-0B74-44BF-81B7-F06A13228563",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : "blog-backend\/",
+    "15D5C46A6AB109525EF159B8550C295CAD9F2755" : "Unclutter.nl-Backend\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "blog-backend",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "blog-backend.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/siemensikkema\/Unclutter.nl-Backend.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15D5C46A6AB109525EF159B8550C295CAD9F2755"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/siemensikkema\/blog-backend.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DD31E206670D556C1FE94BF0E11FA09821BE8CB"
+    }
+  ]
+}
