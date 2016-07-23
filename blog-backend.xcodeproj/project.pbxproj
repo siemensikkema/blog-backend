@@ -386,6 +386,24 @@
 		5F935DD31D43BAB000AAD613 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9358401D43A37400AAD613 /* Vapor.framework */; };
 		5F935DD61D43BD3D00AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
 		5F935DDB1D43BD8200AAD613 /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CA81D43B3C500AAD613 /* Polymorphic.framework */; };
+		5F935DEB1D43F66300AAD613 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DEA1D43F66300AAD613 /* Provider.swift */; };
+		5F935DFC1D43F88900AAD613 /* MySQLDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DFA1D43F88900AAD613 /* MySQLDriver.swift */; };
+		5F935DFD1D43F88900AAD613 /* MySQLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DFB1D43F88900AAD613 /* MySQLSerializer.swift */; };
+		5F935E001D43F8AD00AAD613 /* FluentMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935DF11D43F86F00AAD613 /* FluentMySQL.framework */; };
+		5F935E101D43F8ED00AAD613 /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935E061D43F8BC00AAD613 /* MySQL.framework */; };
+		5F935E1B1D43F90100AAD613 /* Bind+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E121D43F90100AAD613 /* Bind+Value.swift */; };
+		5F935E1C1D43F90100AAD613 /* Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E131D43F90100AAD613 /* Bind.swift */; };
+		5F935E1D1D43F90100AAD613 /* Binds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E141D43F90100AAD613 /* Binds.swift */; };
+		5F935E1E1D43F90100AAD613 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E151D43F90100AAD613 /* Connection.swift */; };
+		5F935E1F1D43F90100AAD613 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E161D43F90100AAD613 /* Database.swift */; };
+		5F935E201D43F90100AAD613 /* Field+Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E171D43F90100AAD613 /* Field+Variant.swift */; };
+		5F935E211D43F90100AAD613 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E181D43F90100AAD613 /* Field.swift */; };
+		5F935E221D43F90100AAD613 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E191D43F90100AAD613 /* Fields.swift */; };
+		5F935E231D43F90100AAD613 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E1A1D43F90100AAD613 /* Value.swift */; };
+		5F935E331D44004100AAD613 /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C581D43B37500AAD613 /* Fluent.framework */; };
+		5F935E361D44038600AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
+		5F935E391D44044300AAD613 /* VaporMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935DE11D43F64500AAD613 /* VaporMySQL.framework */; };
+		5F935E3C1D44067E00AAD613 /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C581D43B37500AAD613 /* Fluent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -577,6 +595,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5F935CA71D43B3C500AAD613;
 			remoteInfo = Polymorphic;
+		};
+		5F935DFE1D43F8A400AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935DF01D43F86F00AAD613;
+			remoteInfo = FluentMySQL;
+		};
+		5F935E0E1D43F8E400AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935E051D43F8BC00AAD613;
+			remoteInfo = MySQL;
+		};
+		5F935E311D44003B00AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935C571D43B37500AAD613;
+			remoteInfo = Fluent;
+		};
+		5F935E341D44038100AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935B171D43ABF100AAD613;
+			remoteInfo = C7;
+		};
+		5F935E371D44043B00AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935DE01D43F64500AAD613;
+			remoteInfo = VaporMySQL;
+		};
+		5F935E3A1D44067700AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935C571D43B37500AAD613;
+			remoteInfo = Fluent;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -970,6 +1030,21 @@
 		5F935DB61D43BA6700AAD613 /* StringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringParser.swift; sourceTree = "<group>"; };
 		5F935DB71D43BA6700AAD613 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		5F935DB81D43BA6700AAD613 /* ValueParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueParser.swift; sourceTree = "<group>"; };
+		5F935DE11D43F64500AAD613 /* VaporMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VaporMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935DEA1D43F66300AAD613 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		5F935DF11D43F86F00AAD613 /* FluentMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluentMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935DFA1D43F88900AAD613 /* MySQLDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySQLDriver.swift; sourceTree = "<group>"; };
+		5F935DFB1D43F88900AAD613 /* MySQLSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySQLSerializer.swift; sourceTree = "<group>"; };
+		5F935E061D43F8BC00AAD613 /* MySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935E121D43F90100AAD613 /* Bind+Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bind+Value.swift"; sourceTree = "<group>"; };
+		5F935E131D43F90100AAD613 /* Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bind.swift; sourceTree = "<group>"; };
+		5F935E141D43F90100AAD613 /* Binds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binds.swift; sourceTree = "<group>"; };
+		5F935E151D43F90100AAD613 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		5F935E161D43F90100AAD613 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		5F935E171D43F90100AAD613 /* Field+Variant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Field+Variant.swift"; sourceTree = "<group>"; };
+		5F935E181D43F90100AAD613 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		5F935E191D43F90100AAD613 /* Fields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		5F935E1A1D43F90100AAD613 /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -977,6 +1052,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F935E391D44044300AAD613 /* VaporMySQL.framework in Frameworks */,
 				5F935DD31D43BAB000AAD613 /* Vapor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1139,6 +1215,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935DDD1D43F64500AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935E3C1D44067E00AAD613 /* Fluent.framework in Frameworks */,
+				5F935E001D43F8AD00AAD613 /* FluentMySQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935DED1D43F86F00AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935E361D44038600AAD613 /* C7.framework in Frameworks */,
+				5F935E331D44004100AAD613 /* Fluent.framework in Frameworks */,
+				5F935E101D43F8ED00AAD613 /* MySQL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935E021D43F8BC00AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1176,6 +1278,9 @@
 				5F935D261D43B9D600AAD613 /* Console.framework */,
 				5F935D881D43BA0F00AAD613 /* Strand.framework */,
 				5F935D9B1D43BA5500AAD613 /* Jay.framework */,
+				5F935DE11D43F64500AAD613 /* VaporMySQL.framework */,
+				5F935DF11D43F86F00AAD613 /* FluentMySQL.framework */,
+				5F935E061D43F8BC00AAD613 /* MySQL.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1207,9 +1312,11 @@
 				5F935C3D1D43B14E00AAD613 /* CryptoEssentials */,
 				5F935A681D43A88400AAD613 /* Engine */,
 				5F935C601D43B39A00AAD613 /* Fluent */,
+				5F935DF91D43F88900AAD613 /* FluentMySQL */,
 				5F935DA31D43BA6700AAD613 /* Jay */,
 				5F935CDF1D43B73900AAD613 /* HMAC */,
 				5F935B9B1D43ACA500AAD613 /* libc */,
+				5F935E111D43F90100AAD613 /* MySQL */,
 				5F935CC81D43B66600AAD613 /* PathIndexable */,
 				5F935CA21D43B3B600AAD613 /* Polymorphic */,
 				5F935ADF1D43ABB800AAD613 /* S4 */,
@@ -1219,6 +1326,7 @@
 				5F935BAE1D43ACFA00AAD613 /* SocksCore */,
 				5F935D921D43BA2400AAD613 /* Strand */,
 				5F9359761D43A6F200AAD613 /* Vapor */,
+				5F935DE91D43F66300AAD613 /* VaporMySQL */,
 				5F935BDB1D43B0CB00AAD613 /* WebSockets */,
 			);
 			name = Dependencies;
@@ -2311,6 +2419,42 @@
 			path = "Packages/Jay-0.12.0/Sources/Jay";
 			sourceTree = "<group>";
 		};
+		5F935DE91D43F66300AAD613 /* VaporMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				5F935DEA1D43F66300AAD613 /* Provider.swift */,
+			);
+			name = VaporMySQL;
+			path = "../Unclutter.nl-Backend/Packages/VaporMySQL-0.2.0/Sources/VaporMySQL";
+			sourceTree = "<group>";
+		};
+		5F935DF91D43F88900AAD613 /* FluentMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				5F935DFA1D43F88900AAD613 /* MySQLDriver.swift */,
+				5F935DFB1D43F88900AAD613 /* MySQLSerializer.swift */,
+			);
+			name = FluentMySQL;
+			path = "../Unclutter.nl-Backend/Packages/FluentMySQL-0.2.0/Sources/FluentMySQL";
+			sourceTree = "<group>";
+		};
+		5F935E111D43F90100AAD613 /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				5F935E121D43F90100AAD613 /* Bind+Value.swift */,
+				5F935E131D43F90100AAD613 /* Bind.swift */,
+				5F935E141D43F90100AAD613 /* Binds.swift */,
+				5F935E151D43F90100AAD613 /* Connection.swift */,
+				5F935E161D43F90100AAD613 /* Database.swift */,
+				5F935E171D43F90100AAD613 /* Field+Variant.swift */,
+				5F935E181D43F90100AAD613 /* Field.swift */,
+				5F935E191D43F90100AAD613 /* Fields.swift */,
+				5F935E1A1D43F90100AAD613 /* Value.swift */,
+			);
+			name = MySQL;
+			path = "../Unclutter.nl-Backend/Packages/MySQL-0.2.3/Sources/MySQL";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2447,6 +2591,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935DDE1D43F64500AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935DEE1D43F86F00AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935E031D43F8BC00AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2461,6 +2626,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5F935E381D44043B00AAD613 /* PBXTargetDependency */,
 				5F935DD21D43BAA900AAD613 /* PBXTargetDependency */,
 			);
 			name = App;
@@ -2836,6 +3002,65 @@
 			productReference = 5F935D9B1D43BA5500AAD613 /* Jay.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5F935DE01D43F64500AAD613 /* VaporMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935DE61D43F64500AAD613 /* Build configuration list for PBXNativeTarget "VaporMySQL" */;
+			buildPhases = (
+				5F935DDC1D43F64500AAD613 /* Sources */,
+				5F935DDD1D43F64500AAD613 /* Frameworks */,
+				5F935DDE1D43F64500AAD613 /* Headers */,
+				5F935DDF1D43F64500AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F935E3B1D44067700AAD613 /* PBXTargetDependency */,
+				5F935DFF1D43F8A400AAD613 /* PBXTargetDependency */,
+			);
+			name = VaporMySQL;
+			productName = VaporMySQL;
+			productReference = 5F935DE11D43F64500AAD613 /* VaporMySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F935DF01D43F86F00AAD613 /* FluentMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935DF61D43F86F00AAD613 /* Build configuration list for PBXNativeTarget "FluentMySQL" */;
+			buildPhases = (
+				5F935DEC1D43F86F00AAD613 /* Sources */,
+				5F935DED1D43F86F00AAD613 /* Frameworks */,
+				5F935DEE1D43F86F00AAD613 /* Headers */,
+				5F935DEF1D43F86F00AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F935E351D44038100AAD613 /* PBXTargetDependency */,
+				5F935E321D44003B00AAD613 /* PBXTargetDependency */,
+				5F935E0F1D43F8E400AAD613 /* PBXTargetDependency */,
+			);
+			name = FluentMySQL;
+			productName = FluentMySQL;
+			productReference = 5F935DF11D43F86F00AAD613 /* FluentMySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F935E051D43F8BC00AAD613 /* MySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935E0B1D43F8BC00AAD613 /* Build configuration list for PBXNativeTarget "MySQL" */;
+			buildPhases = (
+				5F935E011D43F8BC00AAD613 /* Sources */,
+				5F935E021D43F8BC00AAD613 /* Frameworks */,
+				5F935E031D43F8BC00AAD613 /* Headers */,
+				5F935E041D43F8BC00AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySQL;
+			productName = MySQL;
+			productReference = 5F935E061D43F8BC00AAD613 /* MySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2974,6 +3199,24 @@
 						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
+					5F935DE01D43F64500AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					5F935DF01D43F86F00AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					5F935E051D43F8BC00AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 5F9358141D4391B600AAD613 /* Build configuration list for PBXProject "blog-backend" */;
@@ -3008,6 +3251,9 @@
 				5F935D251D43B9D600AAD613 /* Console */,
 				5F935D871D43BA0F00AAD613 /* Strand */,
 				5F935D9A1D43BA5500AAD613 /* Jay */,
+				5F935DE01D43F64500AAD613 /* VaporMySQL */,
+				5F935DF01D43F86F00AAD613 /* FluentMySQL */,
+				5F935E051D43F8BC00AAD613 /* MySQL */,
 			);
 		};
 /* End PBXProject section */
@@ -3140,6 +3386,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5F935D991D43BA5500AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935DDF1D43F64500AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935DEF1D43F86F00AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935E041D43F8BC00AAD613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3642,6 +3909,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935DDC1D43F64500AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935DEB1D43F66300AAD613 /* Provider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935DEC1D43F86F00AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935DFD1D43F88900AAD613 /* MySQLSerializer.swift in Sources */,
+				5F935DFC1D43F88900AAD613 /* MySQLDriver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935E011D43F8BC00AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935E1D1D43F90100AAD613 /* Binds.swift in Sources */,
+				5F935E1C1D43F90100AAD613 /* Bind.swift in Sources */,
+				5F935E201D43F90100AAD613 /* Field+Variant.swift in Sources */,
+				5F935E1B1D43F90100AAD613 /* Bind+Value.swift in Sources */,
+				5F935E1F1D43F90100AAD613 /* Database.swift in Sources */,
+				5F935E231D43F90100AAD613 /* Value.swift in Sources */,
+				5F935E211D43F90100AAD613 /* Field.swift in Sources */,
+				5F935E221D43F90100AAD613 /* Fields.swift in Sources */,
+				5F935E1E1D43F90100AAD613 /* Connection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3780,6 +4080,36 @@
 			target = 5F935CA71D43B3C500AAD613 /* Polymorphic */;
 			targetProxy = 5F935DD91D43BD7D00AAD613 /* PBXContainerItemProxy */;
 		};
+		5F935DFF1D43F8A400AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935DF01D43F86F00AAD613 /* FluentMySQL */;
+			targetProxy = 5F935DFE1D43F8A400AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935E0F1D43F8E400AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935E051D43F8BC00AAD613 /* MySQL */;
+			targetProxy = 5F935E0E1D43F8E400AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935E321D44003B00AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935C571D43B37500AAD613 /* Fluent */;
+			targetProxy = 5F935E311D44003B00AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935E351D44038100AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935B171D43ABF100AAD613 /* C7 */;
+			targetProxy = 5F935E341D44038100AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935E381D44043B00AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935DE01D43F64500AAD613 /* VaporMySQL */;
+			targetProxy = 5F935E371D44043B00AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935E3B1D44067700AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935C571D43B37500AAD613 /* Fluent */;
+			targetProxy = 5F935E3A1D44067700AAD613 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -3800,13 +4130,14 @@
 		5F9358231D4395D500AAD613 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
 			};
 			name = Debug;
 		};
 		5F9358241D4395D500AAD613 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
 			};
 			name = Release;
 		};
@@ -4038,6 +4369,50 @@
 			};
 			name = Release;
 		};
+		5F935DE71D43F64500AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
+			};
+			name = Debug;
+		};
+		5F935DE81D43F64500AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
+			};
+			name = Release;
+		};
+		5F935DF71D43F86F00AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
+			};
+			name = Debug;
+		};
+		5F935DF81D43F86F00AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
+			};
+			name = Release;
+		};
+		5F935E0C1D43F8BC00AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
+				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+			};
+			name = Debug;
+		};
+		5F935E0D1D43F8BC00AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Packages/CMySQL-0.2.1";
+				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4207,6 +4582,30 @@
 			buildConfigurations = (
 				5F935DA11D43BA5500AAD613 /* Debug */,
 				5F935DA21D43BA5500AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935DE61D43F64500AAD613 /* Build configuration list for PBXNativeTarget "VaporMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935DE71D43F64500AAD613 /* Debug */,
+				5F935DE81D43F64500AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935DF61D43F86F00AAD613 /* Build configuration list for PBXNativeTarget "FluentMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935DF71D43F86F00AAD613 /* Debug */,
+				5F935DF81D43F86F00AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935E0B1D43F8BC00AAD613 /* Build configuration list for PBXNativeTarget "MySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935E0C1D43F8BC00AAD613 /* Debug */,
+				5F935E0D1D43F8BC00AAD613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
