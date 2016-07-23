@@ -237,6 +237,39 @@
 		5F935BC91D43ACFA00AAD613 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BBB1D43ACFA00AAD613 /* Types.swift */; };
 		5F935BCA1D43ACFA00AAD613 /* UDPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BBC1D43ACFA00AAD613 /* UDPSocket.swift */; };
 		5F935BCD1D43AD0A00AAD613 /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */; };
+		5F935BEF1D43B0CB00AAD613 /* WebSocket+Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BDD1D43B0CB00AAD613 /* WebSocket+Client.swift */; };
+		5F935BF01D43B0CB00AAD613 /* WebSocket+ControlFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BDF1D43B0CB00AAD613 /* WebSocket+ControlFrames.swift */; };
+		5F935BF11D43B0CB00AAD613 /* WebSocket+Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE01D43B0CB00AAD613 /* WebSocket+Send.swift */; };
+		5F935BF21D43B0CB00AAD613 /* Headers+WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE21D43B0CB00AAD613 /* Headers+WebSockets.swift */; };
+		5F935BF31D43B0CB00AAD613 /* WebSockets+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE31D43B0CB00AAD613 /* WebSockets+Hash.swift */; };
+		5F935BF41D43B0CB00AAD613 /* Fragmentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE51D43B0CB00AAD613 /* Fragmentation.swift */; };
+		5F935BF51D43B0CB00AAD613 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE61D43B0CB00AAD613 /* Frame.swift */; };
+		5F935BF61D43B0CB00AAD613 /* WebSocket+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE71D43B0CB00AAD613 /* WebSocket+Error.swift */; };
+		5F935BF71D43B0CB00AAD613 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE81D43B0CB00AAD613 /* WebSocket.swift */; };
+		5F935BF81D43B0CB00AAD613 /* Request+WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE91D43B0CB00AAD613 /* Request+WebSockets.swift */; };
+		5F935BF91D43B0CB00AAD613 /* FrameDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BEB1D43B0CB00AAD613 /* FrameDeserializer.swift */; };
+		5F935BFA1D43B0CB00AAD613 /* FrameSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BEC1D43B0CB00AAD613 /* FrameSerializer.swift */; };
+		5F935BFB1D43B0CB00AAD613 /* WebSockets+Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BED1D43B0CB00AAD613 /* WebSockets+Flags.swift */; };
+		5F935BFC1D43B0CB00AAD613 /* WebSocketFormatErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BEE1D43B0CB00AAD613 /* WebSocketFormatErrors.swift */; };
+		5F935C0E1D43B10700AAD613 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C0D1D43B10700AAD613 /* SHA1.swift */; };
+		5F935C111D43B11700AAD613 /* SHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C041D43B0E700AAD613 /* SHA1.framework */; };
+		5F935C2E1D43B14900AAD613 /* ArrayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C1F1D43B14900AAD613 /* ArrayProtocol.swift */; };
+		5F935C2F1D43B14900AAD613 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C201D43B14900AAD613 /* Base64.swift */; };
+		5F935C301D43B14900AAD613 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C211D43B14900AAD613 /* BlockMode.swift */; };
+		5F935C311D43B14900AAD613 /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C221D43B14900AAD613 /* BytesSequence.swift */; };
+		5F935C321D43B14900AAD613 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C231D43B14900AAD613 /* Cipher.swift */; };
+		5F935C331D43B14900AAD613 /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C241D43B14900AAD613 /* Compatibility.swift */; };
+		5F935C341D43B14900AAD613 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C251D43B14900AAD613 /* Generics.swift */; };
+		5F935C351D43B14900AAD613 /* HashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C261D43B14900AAD613 /* HashProtocol.swift */; };
+		5F935C361D43B14900AAD613 /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C271D43B14900AAD613 /* IntegerConvertible.swift */; };
+		5F935C371D43B14900AAD613 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C281D43B14900AAD613 /* IntExtension.swift */; };
+		5F935C381D43B14900AAD613 /* NSData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C291D43B14900AAD613 /* NSData+Extensions.swift */; };
+		5F935C391D43B14900AAD613 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2A1D43B14900AAD613 /* Operators.swift */; };
+		5F935C3A1D43B14900AAD613 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2B1D43B14900AAD613 /* Padding.swift */; };
+		5F935C3B1D43B14900AAD613 /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2C1D43B14900AAD613 /* SecureBytes.swift */; };
+		5F935C3C1D43B14900AAD613 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2D1D43B14900AAD613 /* Utils.swift */; };
+		5F935C401D43B16900AAD613 /* CryptoEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */; };
+		5F935C431D43B31900AAD613 /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,6 +309,34 @@
 			remoteInfo = libc;
 		};
 		5F935BCB1D43AD0300AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935BA51D43ACE400AAD613;
+			remoteInfo = SocksCore;
+		};
+		5F935BFD1D43B0D700AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935BD21D43B09600AAD613;
+			remoteInfo = WebSockets;
+		};
+		5F935C0F1D43B11000AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935C031D43B0E700AAD613;
+			remoteInfo = SHA1;
+		};
+		5F935C3E1D43B16500AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935C161D43B13300AAD613;
+			remoteInfo = CryptoEssentials;
+		};
+		5F935C441D43B31E00AAD613 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
 			proxyType = 1;
@@ -533,6 +594,39 @@
 		5F935BBA1D43ACFA00AAD613 /* TCPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPSocket.swift; sourceTree = "<group>"; };
 		5F935BBB1D43ACFA00AAD613 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		5F935BBC1D43ACFA00AAD613 /* UDPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPSocket.swift; sourceTree = "<group>"; };
+		5F935BD31D43B09600AAD613 /* WebSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935BDD1D43B0CB00AAD613 /* WebSocket+Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSocket+Client.swift"; sourceTree = "<group>"; };
+		5F935BDF1D43B0CB00AAD613 /* WebSocket+ControlFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSocket+ControlFrames.swift"; sourceTree = "<group>"; };
+		5F935BE01D43B0CB00AAD613 /* WebSocket+Send.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSocket+Send.swift"; sourceTree = "<group>"; };
+		5F935BE21D43B0CB00AAD613 /* Headers+WebSockets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Headers+WebSockets.swift"; sourceTree = "<group>"; };
+		5F935BE31D43B0CB00AAD613 /* WebSockets+Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSockets+Hash.swift"; sourceTree = "<group>"; };
+		5F935BE51D43B0CB00AAD613 /* Fragmentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fragmentation.swift; sourceTree = "<group>"; };
+		5F935BE61D43B0CB00AAD613 /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		5F935BE71D43B0CB00AAD613 /* WebSocket+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSocket+Error.swift"; sourceTree = "<group>"; };
+		5F935BE81D43B0CB00AAD613 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		5F935BE91D43B0CB00AAD613 /* Request+WebSockets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+WebSockets.swift"; sourceTree = "<group>"; };
+		5F935BEB1D43B0CB00AAD613 /* FrameDeserializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameDeserializer.swift; sourceTree = "<group>"; };
+		5F935BEC1D43B0CB00AAD613 /* FrameSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameSerializer.swift; sourceTree = "<group>"; };
+		5F935BED1D43B0CB00AAD613 /* WebSockets+Flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebSockets+Flags.swift"; sourceTree = "<group>"; };
+		5F935BEE1D43B0CB00AAD613 /* WebSocketFormatErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketFormatErrors.swift; sourceTree = "<group>"; };
+		5F935C041D43B0E700AAD613 /* SHA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935C0D1D43B10700AAD613 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = "Packages/SHA1-0.8.0/Sources/SHA1.swift"; sourceTree = "<group>"; };
+		5F935C171D43B13300AAD613 /* CryptoEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935C1F1D43B14900AAD613 /* ArrayProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayProtocol.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/ArrayProtocol.swift"; sourceTree = "<group>"; };
+		5F935C201D43B14900AAD613 /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Base64.swift"; sourceTree = "<group>"; };
+		5F935C211D43B14900AAD613 /* BlockMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/BlockMode.swift"; sourceTree = "<group>"; };
+		5F935C221D43B14900AAD613 /* BytesSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/BytesSequence.swift"; sourceTree = "<group>"; };
+		5F935C231D43B14900AAD613 /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Cipher.swift"; sourceTree = "<group>"; };
+		5F935C241D43B14900AAD613 /* Compatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Compatibility.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Compatibility.swift"; sourceTree = "<group>"; };
+		5F935C251D43B14900AAD613 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Generics.swift"; sourceTree = "<group>"; };
+		5F935C261D43B14900AAD613 /* HashProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HashProtocol.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/HashProtocol.swift"; sourceTree = "<group>"; };
+		5F935C271D43B14900AAD613 /* IntegerConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntegerConvertible.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/IntegerConvertible.swift"; sourceTree = "<group>"; };
+		5F935C281D43B14900AAD613 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntExtension.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/IntExtension.swift"; sourceTree = "<group>"; };
+		5F935C291D43B14900AAD613 /* NSData+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSData+Extensions.swift"; path = "Packages/CryptoEssentials-0.8.1/Sources/NSData+Extensions.swift"; sourceTree = "<group>"; };
+		5F935C2A1D43B14900AAD613 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Operators.swift"; sourceTree = "<group>"; };
+		5F935C2B1D43B14900AAD613 /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Padding.swift"; sourceTree = "<group>"; };
+		5F935C2C1D43B14900AAD613 /* SecureBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/SecureBytes.swift"; sourceTree = "<group>"; };
+		5F935C2D1D43B14900AAD613 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -598,6 +692,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935BCF1D43B09600AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935C431D43B31900AAD613 /* SocksCore.framework in Frameworks */,
+				5F935C111D43B11700AAD613 /* SHA1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C001D43B0E700AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935C401D43B16900AAD613 /* CryptoEssentials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C131D43B13300AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -623,6 +741,9 @@
 				5F935B571D43AC6500AAD613 /* Base.framework */,
 				5F935B931D43AC9E00AAD613 /* libc.framework */,
 				5F935BA61D43ACE400AAD613 /* SocksCore.framework */,
+				5F935BD31D43B09600AAD613 /* WebSockets.framework */,
+				5F935C041D43B0E700AAD613 /* SHA1.framework */,
+				5F935C171D43B13300AAD613 /* CryptoEssentials.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -648,6 +769,8 @@
 		5F9358481D43A5AB00AAD613 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				5F935C3D1D43B14E00AAD613 /* CryptoEssentials */,
+				5F935C0C1D43B0FA00AAD613 /* SHA1 */,
 				5F935B621D43AC8200AAD613 /* Base */,
 				5F935B201D43ABF800AAD613 /* C7 */,
 				5F935A681D43A88400AAD613 /* Engine */,
@@ -655,6 +778,7 @@
 				5F935ADF1D43ABB800AAD613 /* S4 */,
 				5F935BAE1D43ACFA00AAD613 /* SocksCore */,
 				5F9359761D43A6F200AAD613 /* Vapor */,
+				5F935BDB1D43B0CB00AAD613 /* WebSockets */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -1343,6 +1467,98 @@
 			path = "Packages/Socks-0.8.3/Sources/SocksCore";
 			sourceTree = "<group>";
 		};
+		5F935BDB1D43B0CB00AAD613 /* WebSockets */ = {
+			isa = PBXGroup;
+			children = (
+				5F935BDC1D43B0CB00AAD613 /* Client */,
+				5F935BDE1D43B0CB00AAD613 /* Communication */,
+				5F935BE11D43B0CB00AAD613 /* Connection */,
+				5F935BE41D43B0CB00AAD613 /* Model */,
+				5F935BE91D43B0CB00AAD613 /* Request+WebSockets.swift */,
+				5F935BEA1D43B0CB00AAD613 /* Serialization */,
+				5F935BEE1D43B0CB00AAD613 /* WebSocketFormatErrors.swift */,
+			);
+			name = WebSockets;
+			path = "Packages/Engine-0.1.0/Sources/WebSockets";
+			sourceTree = "<group>";
+		};
+		5F935BDC1D43B0CB00AAD613 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				5F935BDD1D43B0CB00AAD613 /* WebSocket+Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		5F935BDE1D43B0CB00AAD613 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				5F935BDF1D43B0CB00AAD613 /* WebSocket+ControlFrames.swift */,
+				5F935BE01D43B0CB00AAD613 /* WebSocket+Send.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		5F935BE11D43B0CB00AAD613 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				5F935BE21D43B0CB00AAD613 /* Headers+WebSockets.swift */,
+				5F935BE31D43B0CB00AAD613 /* WebSockets+Hash.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		5F935BE41D43B0CB00AAD613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F935BE51D43B0CB00AAD613 /* Fragmentation.swift */,
+				5F935BE61D43B0CB00AAD613 /* Frame.swift */,
+				5F935BE71D43B0CB00AAD613 /* WebSocket+Error.swift */,
+				5F935BE81D43B0CB00AAD613 /* WebSocket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F935BEA1D43B0CB00AAD613 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				5F935BEB1D43B0CB00AAD613 /* FrameDeserializer.swift */,
+				5F935BEC1D43B0CB00AAD613 /* FrameSerializer.swift */,
+				5F935BED1D43B0CB00AAD613 /* WebSockets+Flags.swift */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		5F935C0C1D43B0FA00AAD613 /* SHA1 */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C0D1D43B10700AAD613 /* SHA1.swift */,
+			);
+			name = SHA1;
+			sourceTree = "<group>";
+		};
+		5F935C3D1D43B14E00AAD613 /* CryptoEssentials */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C1F1D43B14900AAD613 /* ArrayProtocol.swift */,
+				5F935C201D43B14900AAD613 /* Base64.swift */,
+				5F935C211D43B14900AAD613 /* BlockMode.swift */,
+				5F935C221D43B14900AAD613 /* BytesSequence.swift */,
+				5F935C231D43B14900AAD613 /* Cipher.swift */,
+				5F935C241D43B14900AAD613 /* Compatibility.swift */,
+				5F935C251D43B14900AAD613 /* Generics.swift */,
+				5F935C261D43B14900AAD613 /* HashProtocol.swift */,
+				5F935C271D43B14900AAD613 /* IntegerConvertible.swift */,
+				5F935C281D43B14900AAD613 /* IntExtension.swift */,
+				5F935C291D43B14900AAD613 /* NSData+Extensions.swift */,
+				5F935C2A1D43B14900AAD613 /* Operators.swift */,
+				5F935C2B1D43B14900AAD613 /* Padding.swift */,
+				5F935C2C1D43B14900AAD613 /* SecureBytes.swift */,
+				5F935C2D1D43B14900AAD613 /* Utils.swift */,
+			);
+			name = CryptoEssentials;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1395,6 +1611,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935BD01D43B09600AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C011D43B0E700AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C141D43B13300AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1427,6 +1664,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5F935BFE1D43B0D700AAD613 /* PBXTargetDependency */,
 				5F935AD01D43A95B00AAD613 /* PBXTargetDependency */,
 			);
 			name = Vapor;
@@ -1547,6 +1785,63 @@
 			productReference = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5F935BD21D43B09600AAD613 /* WebSockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935BD81D43B09600AAD613 /* Build configuration list for PBXNativeTarget "WebSockets" */;
+			buildPhases = (
+				5F935BCE1D43B09600AAD613 /* Sources */,
+				5F935BCF1D43B09600AAD613 /* Frameworks */,
+				5F935BD01D43B09600AAD613 /* Headers */,
+				5F935BD11D43B09600AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F935C451D43B31E00AAD613 /* PBXTargetDependency */,
+				5F935C101D43B11000AAD613 /* PBXTargetDependency */,
+			);
+			name = WebSockets;
+			productName = WebSockets;
+			productReference = 5F935BD31D43B09600AAD613 /* WebSockets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F935C031D43B0E700AAD613 /* SHA1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935C091D43B0E800AAD613 /* Build configuration list for PBXNativeTarget "SHA1" */;
+			buildPhases = (
+				5F935BFF1D43B0E700AAD613 /* Sources */,
+				5F935C001D43B0E700AAD613 /* Frameworks */,
+				5F935C011D43B0E700AAD613 /* Headers */,
+				5F935C021D43B0E700AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F935C3F1D43B16500AAD613 /* PBXTargetDependency */,
+			);
+			name = SHA1;
+			productName = SHA1;
+			productReference = 5F935C041D43B0E700AAD613 /* SHA1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F935C161D43B13300AAD613 /* CryptoEssentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935C1C1D43B13400AAD613 /* Build configuration list for PBXNativeTarget "CryptoEssentials" */;
+			buildPhases = (
+				5F935C121D43B13300AAD613 /* Sources */,
+				5F935C131D43B13300AAD613 /* Frameworks */,
+				5F935C141D43B13300AAD613 /* Headers */,
+				5F935C151D43B13300AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoEssentials;
+			productName = CryptoEssentials;
+			productReference = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1607,6 +1902,26 @@
 						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
+					5F935BD21D43B09600AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					5F935C031D43B0E700AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					5F935C161D43B13300AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 5F9358141D4391B600AAD613 /* Build configuration list for PBXProject "blog-backend" */;
@@ -1629,6 +1944,9 @@
 				5F935B561D43AC6500AAD613 /* Base */,
 				5F935B921D43AC9E00AAD613 /* libc */,
 				5F935BA51D43ACE400AAD613 /* SocksCore */,
+				5F935BD21D43B09600AAD613 /* WebSockets */,
+				5F935C031D43B0E700AAD613 /* SHA1 */,
+				5F935C161D43B13300AAD613 /* CryptoEssentials */,
 			);
 		};
 /* End PBXProject section */
@@ -1677,6 +1995,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5F935BA41D43ACE400AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935BD11D43B09600AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C021D43B0E700AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C151D43B13300AAD613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1966,6 +2305,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935BCE1D43B09600AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935BF21D43B0CB00AAD613 /* Headers+WebSockets.swift in Sources */,
+				5F935BF41D43B0CB00AAD613 /* Fragmentation.swift in Sources */,
+				5F935BF91D43B0CB00AAD613 /* FrameDeserializer.swift in Sources */,
+				5F935BF31D43B0CB00AAD613 /* WebSockets+Hash.swift in Sources */,
+				5F935BF81D43B0CB00AAD613 /* Request+WebSockets.swift in Sources */,
+				5F935BFA1D43B0CB00AAD613 /* FrameSerializer.swift in Sources */,
+				5F935BEF1D43B0CB00AAD613 /* WebSocket+Client.swift in Sources */,
+				5F935BFC1D43B0CB00AAD613 /* WebSocketFormatErrors.swift in Sources */,
+				5F935BF61D43B0CB00AAD613 /* WebSocket+Error.swift in Sources */,
+				5F935BF51D43B0CB00AAD613 /* Frame.swift in Sources */,
+				5F935BF11D43B0CB00AAD613 /* WebSocket+Send.swift in Sources */,
+				5F935BF71D43B0CB00AAD613 /* WebSocket.swift in Sources */,
+				5F935BF01D43B0CB00AAD613 /* WebSocket+ControlFrames.swift in Sources */,
+				5F935BFB1D43B0CB00AAD613 /* WebSockets+Flags.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935BFF1D43B0E700AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935C0E1D43B10700AAD613 /* SHA1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C121D43B13300AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935C2F1D43B14900AAD613 /* Base64.swift in Sources */,
+				5F935C2E1D43B14900AAD613 /* ArrayProtocol.swift in Sources */,
+				5F935C361D43B14900AAD613 /* IntegerConvertible.swift in Sources */,
+				5F935C371D43B14900AAD613 /* IntExtension.swift in Sources */,
+				5F935C341D43B14900AAD613 /* Generics.swift in Sources */,
+				5F935C3C1D43B14900AAD613 /* Utils.swift in Sources */,
+				5F935C391D43B14900AAD613 /* Operators.swift in Sources */,
+				5F935C3A1D43B14900AAD613 /* Padding.swift in Sources */,
+				5F935C351D43B14900AAD613 /* HashProtocol.swift in Sources */,
+				5F935C331D43B14900AAD613 /* Compatibility.swift in Sources */,
+				5F935C321D43B14900AAD613 /* Cipher.swift in Sources */,
+				5F935C3B1D43B14900AAD613 /* SecureBytes.swift in Sources */,
+				5F935C381D43B14900AAD613 /* NSData+Extensions.swift in Sources */,
+				5F935C311D43B14900AAD613 /* BytesSequence.swift in Sources */,
+				5F935C301D43B14900AAD613 /* BlockMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1998,6 +2388,26 @@
 			isa = PBXTargetDependency;
 			target = 5F935BA51D43ACE400AAD613 /* SocksCore */;
 			targetProxy = 5F935BCB1D43AD0300AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935BFE1D43B0D700AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935BD21D43B09600AAD613 /* WebSockets */;
+			targetProxy = 5F935BFD1D43B0D700AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935C101D43B11000AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935C031D43B0E700AAD613 /* SHA1 */;
+			targetProxy = 5F935C0F1D43B11000AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935C3F1D43B16500AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935C161D43B13300AAD613 /* CryptoEssentials */;
+			targetProxy = 5F935C3E1D43B16500AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935C451D43B31E00AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935BA51D43ACE400AAD613 /* SocksCore */;
+			targetProxy = 5F935C441D43B31E00AAD613 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2113,6 +2523,42 @@
 			};
 			name = Release;
 		};
+		5F935BD91D43B09600AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5F935BDA1D43B09600AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5F935C0A1D43B0E800AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5F935C0B1D43B0E800AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5F935C1D1D43B13400AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5F935C1E1D43B13400AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2186,6 +2632,30 @@
 			buildConfigurations = (
 				5F935BAC1D43ACE400AAD613 /* Debug */,
 				5F935BAD1D43ACE400AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935BD81D43B09600AAD613 /* Build configuration list for PBXNativeTarget "WebSockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935BD91D43B09600AAD613 /* Debug */,
+				5F935BDA1D43B09600AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935C091D43B0E800AAD613 /* Build configuration list for PBXNativeTarget "SHA1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935C0A1D43B0E800AAD613 /* Debug */,
+				5F935C0B1D43B0E800AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935C1C1D43B13400AAD613 /* Build configuration list for PBXNativeTarget "CryptoEssentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935C1D1D43B13400AAD613 /* Debug */,
+				5F935C1E1D43B13400AAD613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
