@@ -270,6 +270,43 @@
 		5F935C3C1D43B14900AAD613 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2D1D43B14900AAD613 /* Utils.swift */; };
 		5F935C401D43B16900AAD613 /* CryptoEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */; };
 		5F935C431D43B31900AAD613 /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */; };
+		5F935C851D43B39A00AAD613 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C621D43B39A00AAD613 /* Database.swift */; };
+		5F935C861D43B39A00AAD613 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C631D43B39A00AAD613 /* Driver.swift */; };
+		5F935C871D43B39A00AAD613 /* PrintDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C641D43B39A00AAD613 /* PrintDriver.swift */; };
+		5F935C881D43B39A00AAD613 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C661D43B39A00AAD613 /* Model.swift */; };
+		5F935C891D43B39A00AAD613 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C671D43B39A00AAD613 /* Value.swift */; };
+		5F935C8A1D43B39A00AAD613 /* Database+Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C691D43B39A00AAD613 /* Database+Preparation.swift */; };
+		5F935C8B1D43B39A00AAD613 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C6A1D43B39A00AAD613 /* Migration.swift */; };
+		5F935C8C1D43B39A00AAD613 /* Model+Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C6B1D43B39A00AAD613 /* Model+Preparation.swift */; };
+		5F935C8D1D43B39A00AAD613 /* Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C6C1D43B39A00AAD613 /* Preparation.swift */; };
+		5F935C8E1D43B39A00AAD613 /* PreparationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C6D1D43B39A00AAD613 /* PreparationError.swift */; };
+		5F935C8F1D43B39A00AAD613 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C6F1D43B39A00AAD613 /* Action.swift */; };
+		5F935C901D43B39A00AAD613 /* Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C701D43B39A00AAD613 /* Comparison.swift */; };
+		5F935C911D43B39A00AAD613 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C711D43B39A00AAD613 /* Filter.swift */; };
+		5F935C921D43B39A00AAD613 /* Limit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C721D43B39A00AAD613 /* Limit.swift */; };
+		5F935C931D43B39A00AAD613 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C731D43B39A00AAD613 /* Query.swift */; };
+		5F935C941D43B39A00AAD613 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C741D43B39A00AAD613 /* Scope.swift */; };
+		5F935C951D43B39A00AAD613 /* Database+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C761D43B39A00AAD613 /* Database+Schema.swift */; };
+		5F935C961D43B39A00AAD613 /* Schema+Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C771D43B39A00AAD613 /* Schema+Creator.swift */; };
+		5F935C971D43B39A00AAD613 /* Schema+Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C781D43B39A00AAD613 /* Schema+Field.swift */; };
+		5F935C981D43B39A00AAD613 /* Schema+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C791D43B39A00AAD613 /* Schema+Modifier.swift */; };
+		5F935C991D43B39A00AAD613 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C7A1D43B39A00AAD613 /* Schema.swift */; };
+		5F935C9A1D43B39A00AAD613 /* GeneralSQLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C7C1D43B39A00AAD613 /* GeneralSQLSerializer.swift */; };
+		5F935C9B1D43B39A00AAD613 /* SQL+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C7D1D43B39A00AAD613 /* SQL+Builder.swift */; };
+		5F935C9C1D43B39A00AAD613 /* SQL+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C7E1D43B39A00AAD613 /* SQL+Query.swift */; };
+		5F935C9D1D43B39A00AAD613 /* SQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C7F1D43B39A00AAD613 /* SQL.swift */; };
+		5F935C9E1D43B39A00AAD613 /* SQLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C801D43B39A00AAD613 /* SQLSerializer.swift */; };
+		5F935C9F1D43B39A00AAD613 /* Fluent+C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C821D43B39A00AAD613 /* Fluent+C7.swift */; };
+		5F935CA01D43B39A00AAD613 /* Fluent+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C831D43B39A00AAD613 /* Fluent+Polymorphic.swift */; };
+		5F935CA11D43B39A00AAD613 /* Value+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C841D43B39A00AAD613 /* Value+Polymorphic.swift */; };
+		5F935CB41D43B3D700AAD613 /* Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB01D43B3D700AAD613 /* Polymorphic.swift */; };
+		5F935CB51D43B3D700AAD613 /* Polymorphic+C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB11D43B3D700AAD613 /* Polymorphic+C7.swift */; };
+		5F935CB61D43B3D700AAD613 /* String+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB21D43B3D700AAD613 /* String+Polymorphic.swift */; };
+		5F935CB71D43B3D700AAD613 /* StructuredData+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB31D43B3D700AAD613 /* StructuredData+Polymorphic.swift */; };
+		5F935CBA1D43B3EF00AAD613 /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CA81D43B3C500AAD613 /* Polymorphic.framework */; };
+		5F935CCB1D43B66600AAD613 /* PathIndexable+Subscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CC91D43B66600AAD613 /* PathIndexable+Subscripting.swift */; };
+		5F935CCC1D43B66600AAD613 /* PathIndexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CCA1D43B66600AAD613 /* PathIndexable.swift */; };
+		5F935CCF1D43B67800AAD613 /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CC01D43B65400AAD613 /* PathIndexable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -342,6 +379,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5F935BA51D43ACE400AAD613;
 			remoteInfo = SocksCore;
+		};
+		5F935CB81D43B3E800AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935CA71D43B3C500AAD613;
+			remoteInfo = Polymorphic;
+		};
+		5F935CCD1D43B67100AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935CBF1D43B65400AAD613;
+			remoteInfo = PathIndexable;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -627,6 +678,44 @@
 		5F935C2B1D43B14900AAD613 /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Padding.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Padding.swift"; sourceTree = "<group>"; };
 		5F935C2C1D43B14900AAD613 /* SecureBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/SecureBytes.swift"; sourceTree = "<group>"; };
 		5F935C2D1D43B14900AAD613 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "Packages/CryptoEssentials-0.8.1/Sources/Utils.swift"; sourceTree = "<group>"; };
+		5F935C581D43B37500AAD613 /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935C621D43B39A00AAD613 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		5F935C631D43B39A00AAD613 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		5F935C641D43B39A00AAD613 /* PrintDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintDriver.swift; sourceTree = "<group>"; };
+		5F935C661D43B39A00AAD613 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5F935C671D43B39A00AAD613 /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		5F935C691D43B39A00AAD613 /* Database+Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+Preparation.swift"; sourceTree = "<group>"; };
+		5F935C6A1D43B39A00AAD613 /* Migration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
+		5F935C6B1D43B39A00AAD613 /* Model+Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model+Preparation.swift"; sourceTree = "<group>"; };
+		5F935C6C1D43B39A00AAD613 /* Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preparation.swift; sourceTree = "<group>"; };
+		5F935C6D1D43B39A00AAD613 /* PreparationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreparationError.swift; sourceTree = "<group>"; };
+		5F935C6F1D43B39A00AAD613 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		5F935C701D43B39A00AAD613 /* Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparison.swift; sourceTree = "<group>"; };
+		5F935C711D43B39A00AAD613 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		5F935C721D43B39A00AAD613 /* Limit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Limit.swift; sourceTree = "<group>"; };
+		5F935C731D43B39A00AAD613 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		5F935C741D43B39A00AAD613 /* Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
+		5F935C761D43B39A00AAD613 /* Database+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Database+Schema.swift"; sourceTree = "<group>"; };
+		5F935C771D43B39A00AAD613 /* Schema+Creator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Schema+Creator.swift"; sourceTree = "<group>"; };
+		5F935C781D43B39A00AAD613 /* Schema+Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Schema+Field.swift"; sourceTree = "<group>"; };
+		5F935C791D43B39A00AAD613 /* Schema+Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Schema+Modifier.swift"; sourceTree = "<group>"; };
+		5F935C7A1D43B39A00AAD613 /* Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
+		5F935C7C1D43B39A00AAD613 /* GeneralSQLSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSQLSerializer.swift; sourceTree = "<group>"; };
+		5F935C7D1D43B39A00AAD613 /* SQL+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQL+Builder.swift"; sourceTree = "<group>"; };
+		5F935C7E1D43B39A00AAD613 /* SQL+Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SQL+Query.swift"; sourceTree = "<group>"; };
+		5F935C7F1D43B39A00AAD613 /* SQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQL.swift; sourceTree = "<group>"; };
+		5F935C801D43B39A00AAD613 /* SQLSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLSerializer.swift; sourceTree = "<group>"; };
+		5F935C821D43B39A00AAD613 /* Fluent+C7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fluent+C7.swift"; sourceTree = "<group>"; };
+		5F935C831D43B39A00AAD613 /* Fluent+Polymorphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fluent+Polymorphic.swift"; sourceTree = "<group>"; };
+		5F935C841D43B39A00AAD613 /* Value+Polymorphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Value+Polymorphic.swift"; sourceTree = "<group>"; };
+		5F935CA81D43B3C500AAD613 /* Polymorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polymorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935CB01D43B3D700AAD613 /* Polymorphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Polymorphic.swift; path = "Packages/Polymorphic-0.2.1/Sources/Polymorphic.swift"; sourceTree = "<group>"; };
+		5F935CB11D43B3D700AAD613 /* Polymorphic+C7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Polymorphic+C7.swift"; path = "Packages/Polymorphic-0.2.1/Sources/Polymorphic+C7.swift"; sourceTree = "<group>"; };
+		5F935CB21D43B3D700AAD613 /* String+Polymorphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Polymorphic.swift"; path = "Packages/Polymorphic-0.2.1/Sources/String+Polymorphic.swift"; sourceTree = "<group>"; };
+		5F935CB31D43B3D700AAD613 /* StructuredData+Polymorphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StructuredData+Polymorphic.swift"; path = "Packages/Polymorphic-0.2.1/Sources/StructuredData+Polymorphic.swift"; sourceTree = "<group>"; };
+		5F935CC01D43B65400AAD613 /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathIndexable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F935CC91D43B66600AAD613 /* PathIndexable+Subscripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PathIndexable+Subscripting.swift"; sourceTree = "<group>"; };
+		5F935CCA1D43B66600AAD613 /* PathIndexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathIndexable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -716,6 +805,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935C541D43B37500AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935CCF1D43B67800AAD613 /* PathIndexable.framework in Frameworks */,
+				5F935CBA1D43B3EF00AAD613 /* Polymorphic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CA41D43B3C500AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CBC1D43B65400AAD613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -744,6 +856,9 @@
 				5F935BD31D43B09600AAD613 /* WebSockets.framework */,
 				5F935C041D43B0E700AAD613 /* SHA1.framework */,
 				5F935C171D43B13300AAD613 /* CryptoEssentials.framework */,
+				5F935C581D43B37500AAD613 /* Fluent.framework */,
+				5F935CA81D43B3C500AAD613 /* Polymorphic.framework */,
+				5F935CC01D43B65400AAD613 /* PathIndexable.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -769,13 +884,16 @@
 		5F9358481D43A5AB00AAD613 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				5F935C3D1D43B14E00AAD613 /* CryptoEssentials */,
-				5F935C0C1D43B0FA00AAD613 /* SHA1 */,
 				5F935B621D43AC8200AAD613 /* Base */,
 				5F935B201D43ABF800AAD613 /* C7 */,
+				5F935C3D1D43B14E00AAD613 /* CryptoEssentials */,
 				5F935A681D43A88400AAD613 /* Engine */,
+				5F935C601D43B39A00AAD613 /* Fluent */,
 				5F935B9B1D43ACA500AAD613 /* libc */,
+				5F935CC81D43B66600AAD613 /* PathIndexable */,
+				5F935CA21D43B3B600AAD613 /* Polymorphic */,
 				5F935ADF1D43ABB800AAD613 /* S4 */,
+				5F935C0C1D43B0FA00AAD613 /* SHA1 */,
 				5F935BAE1D43ACFA00AAD613 /* SocksCore */,
 				5F9359761D43A6F200AAD613 /* Vapor */,
 				5F935BDB1D43B0CB00AAD613 /* WebSockets */,
@@ -1559,6 +1677,120 @@
 			name = CryptoEssentials;
 			sourceTree = "<group>";
 		};
+		5F935C601D43B39A00AAD613 /* Fluent */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C611D43B39A00AAD613 /* Database */,
+				5F935C651D43B39A00AAD613 /* Model */,
+				5F935C681D43B39A00AAD613 /* Preparation */,
+				5F935C6E1D43B39A00AAD613 /* Query */,
+				5F935C751D43B39A00AAD613 /* Schema */,
+				5F935C7B1D43B39A00AAD613 /* SQL */,
+				5F935C811D43B39A00AAD613 /* Utilities */,
+			);
+			name = Fluent;
+			path = "Packages/Fluent-0.7.2/Sources/Fluent";
+			sourceTree = "<group>";
+		};
+		5F935C611D43B39A00AAD613 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C621D43B39A00AAD613 /* Database.swift */,
+				5F935C631D43B39A00AAD613 /* Driver.swift */,
+				5F935C641D43B39A00AAD613 /* PrintDriver.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5F935C651D43B39A00AAD613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C661D43B39A00AAD613 /* Model.swift */,
+				5F935C671D43B39A00AAD613 /* Value.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F935C681D43B39A00AAD613 /* Preparation */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C691D43B39A00AAD613 /* Database+Preparation.swift */,
+				5F935C6A1D43B39A00AAD613 /* Migration.swift */,
+				5F935C6B1D43B39A00AAD613 /* Model+Preparation.swift */,
+				5F935C6C1D43B39A00AAD613 /* Preparation.swift */,
+				5F935C6D1D43B39A00AAD613 /* PreparationError.swift */,
+			);
+			path = Preparation;
+			sourceTree = "<group>";
+		};
+		5F935C6E1D43B39A00AAD613 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C6F1D43B39A00AAD613 /* Action.swift */,
+				5F935C701D43B39A00AAD613 /* Comparison.swift */,
+				5F935C711D43B39A00AAD613 /* Filter.swift */,
+				5F935C721D43B39A00AAD613 /* Limit.swift */,
+				5F935C731D43B39A00AAD613 /* Query.swift */,
+				5F935C741D43B39A00AAD613 /* Scope.swift */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		5F935C751D43B39A00AAD613 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C761D43B39A00AAD613 /* Database+Schema.swift */,
+				5F935C771D43B39A00AAD613 /* Schema+Creator.swift */,
+				5F935C781D43B39A00AAD613 /* Schema+Field.swift */,
+				5F935C791D43B39A00AAD613 /* Schema+Modifier.swift */,
+				5F935C7A1D43B39A00AAD613 /* Schema.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		5F935C7B1D43B39A00AAD613 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C7C1D43B39A00AAD613 /* GeneralSQLSerializer.swift */,
+				5F935C7D1D43B39A00AAD613 /* SQL+Builder.swift */,
+				5F935C7E1D43B39A00AAD613 /* SQL+Query.swift */,
+				5F935C7F1D43B39A00AAD613 /* SQL.swift */,
+				5F935C801D43B39A00AAD613 /* SQLSerializer.swift */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		5F935C811D43B39A00AAD613 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5F935C821D43B39A00AAD613 /* Fluent+C7.swift */,
+				5F935C831D43B39A00AAD613 /* Fluent+Polymorphic.swift */,
+				5F935C841D43B39A00AAD613 /* Value+Polymorphic.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5F935CA21D43B3B600AAD613 /* Polymorphic */ = {
+			isa = PBXGroup;
+			children = (
+				5F935CB01D43B3D700AAD613 /* Polymorphic.swift */,
+				5F935CB11D43B3D700AAD613 /* Polymorphic+C7.swift */,
+				5F935CB21D43B3D700AAD613 /* String+Polymorphic.swift */,
+				5F935CB31D43B3D700AAD613 /* StructuredData+Polymorphic.swift */,
+			);
+			name = Polymorphic;
+			sourceTree = "<group>";
+		};
+		5F935CC81D43B66600AAD613 /* PathIndexable */ = {
+			isa = PBXGroup;
+			children = (
+				5F935CC91D43B66600AAD613 /* PathIndexable+Subscripting.swift */,
+				5F935CCA1D43B66600AAD613 /* PathIndexable.swift */,
+			);
+			name = PathIndexable;
+			path = "Packages/PathIndexable-0.2.0/Sources/PathIndexable";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1626,6 +1858,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5F935C141D43B13300AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C551D43B37500AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CA51D43B3C500AAD613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CBD1D43B65400AAD613 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1842,6 +2095,62 @@
 			productReference = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5F935C571D43B37500AAD613 /* Fluent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935C5D1D43B37500AAD613 /* Build configuration list for PBXNativeTarget "Fluent" */;
+			buildPhases = (
+				5F935C531D43B37500AAD613 /* Sources */,
+				5F935C541D43B37500AAD613 /* Frameworks */,
+				5F935C551D43B37500AAD613 /* Headers */,
+				5F935C561D43B37500AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F935CCE1D43B67100AAD613 /* PBXTargetDependency */,
+				5F935CB91D43B3E800AAD613 /* PBXTargetDependency */,
+			);
+			name = Fluent;
+			productName = Fluent;
+			productReference = 5F935C581D43B37500AAD613 /* Fluent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F935CA71D43B3C500AAD613 /* Polymorphic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935CAD1D43B3C500AAD613 /* Build configuration list for PBXNativeTarget "Polymorphic" */;
+			buildPhases = (
+				5F935CA31D43B3C500AAD613 /* Sources */,
+				5F935CA41D43B3C500AAD613 /* Frameworks */,
+				5F935CA51D43B3C500AAD613 /* Headers */,
+				5F935CA61D43B3C500AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polymorphic;
+			productName = Polymorphic;
+			productReference = 5F935CA81D43B3C500AAD613 /* Polymorphic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F935CBF1D43B65400AAD613 /* PathIndexable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F935CC51D43B65400AAD613 /* Build configuration list for PBXNativeTarget "PathIndexable" */;
+			buildPhases = (
+				5F935CBB1D43B65400AAD613 /* Sources */,
+				5F935CBC1D43B65400AAD613 /* Frameworks */,
+				5F935CBD1D43B65400AAD613 /* Headers */,
+				5F935CBE1D43B65400AAD613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PathIndexable;
+			productName = PathIndexable;
+			productReference = 5F935CC01D43B65400AAD613 /* PathIndexable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1922,6 +2231,25 @@
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
+					5F935C571D43B37500AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					5F935CA71D43B3C500AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					5F935CBF1D43B65400AAD613 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWZ8DUTWFQ;
+						DevelopmentTeamName = "Siemen Sikkema (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 5F9358141D4391B600AAD613 /* Build configuration list for PBXProject "blog-backend" */;
@@ -1947,6 +2275,9 @@
 				5F935BD21D43B09600AAD613 /* WebSockets */,
 				5F935C031D43B0E700AAD613 /* SHA1 */,
 				5F935C161D43B13300AAD613 /* CryptoEssentials */,
+				5F935C571D43B37500AAD613 /* Fluent */,
+				5F935CA71D43B3C500AAD613 /* Polymorphic */,
+				5F935CBF1D43B65400AAD613 /* PathIndexable */,
 			);
 		};
 /* End PBXProject section */
@@ -2016,6 +2347,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5F935C151D43B13300AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935C561D43B37500AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CA61D43B3C500AAD613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CBE1D43B65400AAD613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2356,6 +2708,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F935C531D43B37500AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935C941D43B39A00AAD613 /* Scope.swift in Sources */,
+				5F935C9F1D43B39A00AAD613 /* Fluent+C7.swift in Sources */,
+				5F935C871D43B39A00AAD613 /* PrintDriver.swift in Sources */,
+				5F935C8F1D43B39A00AAD613 /* Action.swift in Sources */,
+				5F935C9C1D43B39A00AAD613 /* SQL+Query.swift in Sources */,
+				5F935C9E1D43B39A00AAD613 /* SQLSerializer.swift in Sources */,
+				5F935C851D43B39A00AAD613 /* Database.swift in Sources */,
+				5F935C8D1D43B39A00AAD613 /* Preparation.swift in Sources */,
+				5F935C8A1D43B39A00AAD613 /* Database+Preparation.swift in Sources */,
+				5F935C921D43B39A00AAD613 /* Limit.swift in Sources */,
+				5F935C8C1D43B39A00AAD613 /* Model+Preparation.swift in Sources */,
+				5F935C891D43B39A00AAD613 /* Value.swift in Sources */,
+				5F935C9B1D43B39A00AAD613 /* SQL+Builder.swift in Sources */,
+				5F935C861D43B39A00AAD613 /* Driver.swift in Sources */,
+				5F935C8B1D43B39A00AAD613 /* Migration.swift in Sources */,
+				5F935C951D43B39A00AAD613 /* Database+Schema.swift in Sources */,
+				5F935C991D43B39A00AAD613 /* Schema.swift in Sources */,
+				5F935C931D43B39A00AAD613 /* Query.swift in Sources */,
+				5F935C8E1D43B39A00AAD613 /* PreparationError.swift in Sources */,
+				5F935C911D43B39A00AAD613 /* Filter.swift in Sources */,
+				5F935C981D43B39A00AAD613 /* Schema+Modifier.swift in Sources */,
+				5F935C9A1D43B39A00AAD613 /* GeneralSQLSerializer.swift in Sources */,
+				5F935C961D43B39A00AAD613 /* Schema+Creator.swift in Sources */,
+				5F935C9D1D43B39A00AAD613 /* SQL.swift in Sources */,
+				5F935C901D43B39A00AAD613 /* Comparison.swift in Sources */,
+				5F935C971D43B39A00AAD613 /* Schema+Field.swift in Sources */,
+				5F935CA11D43B39A00AAD613 /* Value+Polymorphic.swift in Sources */,
+				5F935CA01D43B39A00AAD613 /* Fluent+Polymorphic.swift in Sources */,
+				5F935C881D43B39A00AAD613 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CA31D43B3C500AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935CB61D43B3D700AAD613 /* String+Polymorphic.swift in Sources */,
+				5F935CB51D43B3D700AAD613 /* Polymorphic+C7.swift in Sources */,
+				5F935CB71D43B3D700AAD613 /* StructuredData+Polymorphic.swift in Sources */,
+				5F935CB41D43B3D700AAD613 /* Polymorphic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F935CBB1D43B65400AAD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F935CCB1D43B66600AAD613 /* PathIndexable+Subscripting.swift in Sources */,
+				5F935CCC1D43B66600AAD613 /* PathIndexable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2408,6 +2816,16 @@
 			isa = PBXTargetDependency;
 			target = 5F935BA51D43ACE400AAD613 /* SocksCore */;
 			targetProxy = 5F935C441D43B31E00AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935CB91D43B3E800AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935CA71D43B3C500AAD613 /* Polymorphic */;
+			targetProxy = 5F935CB81D43B3E800AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935CCE1D43B67100AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935CBF1D43B65400AAD613 /* PathIndexable */;
+			targetProxy = 5F935CCD1D43B67100AAD613 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2559,6 +2977,42 @@
 			};
 			name = Release;
 		};
+		5F935C5E1D43B37500AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5F935C5F1D43B37500AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5F935CAE1D43B3C500AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5F935CAF1D43B3C500AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5F935CC61D43B65400AAD613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5F935CC71D43B65400AAD613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2656,6 +3110,30 @@
 			buildConfigurations = (
 				5F935C1D1D43B13400AAD613 /* Debug */,
 				5F935C1E1D43B13400AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935C5D1D43B37500AAD613 /* Build configuration list for PBXNativeTarget "Fluent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935C5E1D43B37500AAD613 /* Debug */,
+				5F935C5F1D43B37500AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935CAD1D43B3C500AAD613 /* Build configuration list for PBXNativeTarget "Polymorphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935CAE1D43B3C500AAD613 /* Debug */,
+				5F935CAF1D43B3C500AAD613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F935CC51D43B65400AAD613 /* Build configuration list for PBXNativeTarget "PathIndexable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F935CC61D43B65400AAD613 /* Debug */,
+				5F935CC71D43B65400AAD613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
