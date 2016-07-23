@@ -384,6 +384,8 @@
 		5F935DCD1D43BA6700AAD613 /* ValueParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DB81D43BA6700AAD613 /* ValueParser.swift */; };
 		5F935DD01D43BA8A00AAD613 /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935D9B1D43BA5500AAD613 /* Jay.framework */; };
 		5F935DD31D43BAB000AAD613 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9358401D43A37400AAD613 /* Vapor.framework */; };
+		5F935DD61D43BD3D00AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
+		5F935DDB1D43BD8200AAD613 /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CA81D43B3C500AAD613 /* Polymorphic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -554,6 +556,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5F93583F1D43A37400AAD613;
 			remoteInfo = Vapor;
+		};
+		5F935DD41D43BD3800AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935B171D43ABF100AAD613;
+			remoteInfo = C7;
+		};
+		5F935DD71D43BD4F00AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935BA51D43ACE400AAD613;
+			remoteInfo = SocksCore;
+		};
+		5F935DD91D43BD7D00AAD613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935CA71D43B3C500AAD613;
+			remoteInfo = Polymorphic;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1096,6 +1119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F935DDB1D43BD8200AAD613 /* Polymorphic.framework in Frameworks */,
 				5F935D951D43BA3E00AAD613 /* Strand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1111,6 +1135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F935DD61D43BD3D00AAD613 /* C7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2747,6 +2772,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5F935DD81D43BD4F00AAD613 /* PBXTargetDependency */,
 			);
 			name = Socks;
 			productName = Socks;
@@ -2765,6 +2791,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5F935DDA1D43BD7D00AAD613 /* PBXTargetDependency */,
 				5F935D941D43BA3500AAD613 /* PBXTargetDependency */,
 			);
 			name = Console;
@@ -2802,6 +2829,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5F935DD51D43BD3800AAD613 /* PBXTargetDependency */,
 			);
 			name = Jay;
 			productName = Jay;
@@ -3736,6 +3764,21 @@
 			isa = PBXTargetDependency;
 			target = 5F93583F1D43A37400AAD613 /* Vapor */;
 			targetProxy = 5F935DD11D43BAA900AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935DD51D43BD3800AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935B171D43ABF100AAD613 /* C7 */;
+			targetProxy = 5F935DD41D43BD3800AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935DD81D43BD4F00AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935BA51D43ACE400AAD613 /* SocksCore */;
+			targetProxy = 5F935DD71D43BD4F00AAD613 /* PBXContainerItemProxy */;
+		};
+		5F935DDA1D43BD7D00AAD613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935CA71D43B3C500AAD613 /* Polymorphic */;
+			targetProxy = 5F935DD91D43BD7D00AAD613 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
