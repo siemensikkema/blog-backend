@@ -4,15 +4,21 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : 0,
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : 0,
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : 0,
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : 0,
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : 0,
     "15D5C46A6AB109525EF159B8550C295CAD9F2755" : 0,
-    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : 0
+    "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DBF339D-0B74-44BF-81B7-F06A13228563",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : "blog-backend\/",
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : "blog-backend\/Packages\/HMAC-0.8.0\/",
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : "blog-backend\/Packages\/libc-0.1.0\/",
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : "blog-backend\/Packages\/SHA2-0.8.0\/",
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : "blog-backend\/Packages\/Strand-1.5.1\/",
     "15D5C46A6AB109525EF159B8550C295CAD9F2755" : "Unclutter.nl-Backend\/",
-    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : "blog-backend\/Packages\/libc-0.1.0\/"
+    "8DD31E206670D556C1FE94BF0E11FA09821BE8CB" : "blog-backend\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "blog-backend",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,6 +28,21 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/siemensikkema\/Unclutter.nl-Backend.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15D5C46A6AB109525EF159B8550C295CAD9F2755"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E72C4C11736864B9AA36A7CE5A7583666A1B027"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ketzusaka\/Strand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/HMAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "287F3CCB1287376788CD8C8A6441419AFFC4A554"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/siemensikkema\/blog-backend.git",
