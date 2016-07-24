@@ -148,7 +148,6 @@
 		5F935ACC1D43A88400AAD613 /* URIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AA21D43A88400AAD613 /* URIParser.swift */; };
 		5F935ACD1D43A88400AAD613 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AA41D43A88400AAD613 /* Bridge.swift */; };
 		5F935ACE1D43A88400AAD613 /* Vapor+S4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AA51D43A88400AAD613 /* Vapor+S4.swift */; };
-		5F935AD11D43AB0600AAD613 /* Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935A601D43A7D400AAD613 /* Engine.framework */; };
 		5F935AF81D43ABC200AAD613 /* AsyncClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AE01D43ABC200AAD613 /* AsyncClient.swift */; };
 		5F935AF91D43ABC200AAD613 /* AsyncMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AE11D43ABC200AAD613 /* AsyncMiddleware.swift */; };
 		5F935AFA1D43ABC200AAD613 /* AsyncRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AE21D43ABC200AAD613 /* AsyncRequestSerializer.swift */; };
@@ -173,7 +172,6 @@
 		5F935B0D1D43ABC200AAD613 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AF51D43ABC200AAD613 /* Server.swift */; };
 		5F935B0E1D43ABC200AAD613 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AF61D43ABC200AAD613 /* Status.swift */; };
 		5F935B0F1D43ABC200AAD613 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935AF71D43ABC200AAD613 /* Version.swift */; };
-		5F935B121D43ABD200AAD613 /* S4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935AD71D43ABA100AAD613 /* S4.framework */; };
 		5F935B381D43AC0500AAD613 /* AsyncConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B211D43AC0500AAD613 /* AsyncConnection.swift */; };
 		5F935B391D43AC0500AAD613 /* AsyncDrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B221D43AC0500AAD613 /* AsyncDrain.swift */; };
 		5F935B3A1D43AC0500AAD613 /* AsyncHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B231D43AC0500AAD613 /* AsyncHost.swift */; };
@@ -197,8 +195,6 @@
 		5F935B4C1D43AC0500AAD613 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B351D43AC0500AAD613 /* Time.swift */; };
 		5F935B4D1D43AC0500AAD613 /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B361D43AC0500AAD613 /* URI.swift */; };
 		5F935B4E1D43AC0500AAD613 /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B371D43AC0500AAD613 /* URIConnection.swift */; };
-		5F935B511D43AC2600AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
-		5F935B611D43AC7700AAD613 /* Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B571D43AC6500AAD613 /* Base.framework */; };
 		5F935B791D43AC8200AAD613 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B631D43AC8200AAD613 /* Array.swift */; };
 		5F935B7A1D43AC8200AAD613 /* Bool+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B641D43AC8200AAD613 /* Bool+String.swift */; };
 		5F935B7B1D43AC8200AAD613 /* Byte+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B661D43AC8200AAD613 /* Byte+Random.swift */; };
@@ -221,7 +217,6 @@
 		5F935B8C1D43AC8200AAD613 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B771D43AC8200AAD613 /* String.swift */; };
 		5F935B8D1D43AC8200AAD613 /* UnsignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B781D43AC8200AAD613 /* UnsignedInteger.swift */; };
 		5F935B9D1D43ACAF00AAD613 /* libc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935B9C1D43ACAF00AAD613 /* libc.swift */; };
-		5F935BA01D43ACC100AAD613 /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B931D43AC9E00AAD613 /* libc.framework */; };
 		5F935BBD1D43ACFA00AAD613 /* Address+C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BAF1D43ACFA00AAD613 /* Address+C.swift */; };
 		5F935BBE1D43ACFA00AAD613 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BB01D43ACFA00AAD613 /* Address.swift */; };
 		5F935BBF1D43ACFA00AAD613 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BB11D43ACFA00AAD613 /* Bytes.swift */; };
@@ -236,7 +231,6 @@
 		5F935BC81D43ACFA00AAD613 /* TCPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BBA1D43ACFA00AAD613 /* TCPSocket.swift */; };
 		5F935BC91D43ACFA00AAD613 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BBB1D43ACFA00AAD613 /* Types.swift */; };
 		5F935BCA1D43ACFA00AAD613 /* UDPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BBC1D43ACFA00AAD613 /* UDPSocket.swift */; };
-		5F935BCD1D43AD0A00AAD613 /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */; };
 		5F935BEF1D43B0CB00AAD613 /* WebSocket+Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BDD1D43B0CB00AAD613 /* WebSocket+Client.swift */; };
 		5F935BF01D43B0CB00AAD613 /* WebSocket+ControlFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BDF1D43B0CB00AAD613 /* WebSocket+ControlFrames.swift */; };
 		5F935BF11D43B0CB00AAD613 /* WebSocket+Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BE01D43B0CB00AAD613 /* WebSocket+Send.swift */; };
@@ -252,7 +246,6 @@
 		5F935BFB1D43B0CB00AAD613 /* WebSockets+Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BED1D43B0CB00AAD613 /* WebSockets+Flags.swift */; };
 		5F935BFC1D43B0CB00AAD613 /* WebSocketFormatErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935BEE1D43B0CB00AAD613 /* WebSocketFormatErrors.swift */; };
 		5F935C0E1D43B10700AAD613 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C0D1D43B10700AAD613 /* SHA1.swift */; };
-		5F935C111D43B11700AAD613 /* SHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C041D43B0E700AAD613 /* SHA1.framework */; };
 		5F935C2E1D43B14900AAD613 /* ArrayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C1F1D43B14900AAD613 /* ArrayProtocol.swift */; };
 		5F935C2F1D43B14900AAD613 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C201D43B14900AAD613 /* Base64.swift */; };
 		5F935C301D43B14900AAD613 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C211D43B14900AAD613 /* BlockMode.swift */; };
@@ -268,8 +261,6 @@
 		5F935C3A1D43B14900AAD613 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2B1D43B14900AAD613 /* Padding.swift */; };
 		5F935C3B1D43B14900AAD613 /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2C1D43B14900AAD613 /* SecureBytes.swift */; };
 		5F935C3C1D43B14900AAD613 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C2D1D43B14900AAD613 /* Utils.swift */; };
-		5F935C401D43B16900AAD613 /* CryptoEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */; };
-		5F935C431D43B31900AAD613 /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */; };
 		5F935C851D43B39A00AAD613 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C621D43B39A00AAD613 /* Database.swift */; };
 		5F935C861D43B39A00AAD613 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C631D43B39A00AAD613 /* Driver.swift */; };
 		5F935C871D43B39A00AAD613 /* PrintDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935C641D43B39A00AAD613 /* PrintDriver.swift */; };
@@ -303,26 +294,15 @@
 		5F935CB51D43B3D700AAD613 /* Polymorphic+C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB11D43B3D700AAD613 /* Polymorphic+C7.swift */; };
 		5F935CB61D43B3D700AAD613 /* String+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB21D43B3D700AAD613 /* String+Polymorphic.swift */; };
 		5F935CB71D43B3D700AAD613 /* StructuredData+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CB31D43B3D700AAD613 /* StructuredData+Polymorphic.swift */; };
-		5F935CBA1D43B3EF00AAD613 /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CA81D43B3C500AAD613 /* Polymorphic.framework */; };
 		5F935CCB1D43B66600AAD613 /* PathIndexable+Subscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CC91D43B66600AAD613 /* PathIndexable+Subscripting.swift */; };
 		5F935CCC1D43B66600AAD613 /* PathIndexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CCA1D43B66600AAD613 /* PathIndexable.swift */; };
-		5F935CCF1D43B67800AAD613 /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CC01D43B65400AAD613 /* PathIndexable.framework */; };
 		5F935CDE1D43B73200AAD613 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CDD1D43B73200AAD613 /* HMAC.swift */; };
-		5F935CE21D43B75100AAD613 /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CD51D43B72600AAD613 /* HMAC.framework */; };
 		5F935CF11D43B7B400AAD613 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935CF01D43B7B400AAD613 /* SHA2.swift */; };
-		5F935CF31D43B7EC00AAD613 /* CryptoEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */; };
-		5F935CF61D43B81400AAD613 /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BD31D43B09600AAD613 /* WebSockets.framework */; };
-		5F935CF91D43B83500AAD613 /* Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935A601D43A7D400AAD613 /* Engine.framework */; };
-		5F935CFC1D43B87400AAD613 /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C581D43B37500AAD613 /* Fluent.framework */; };
-		5F935CFF1D43B8A300AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
-		5F935D021D43B8B700AAD613 /* CryptoEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C171D43B13300AAD613 /* CryptoEssentials.framework */; };
-		5F935D051D43B8D700AAD613 /* SHA2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CE81D43B7A700AAD613 /* SHA2.framework */; };
 		5F935D191D43B97A00AAD613 /* Socks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D141D43B97A00AAD613 /* Socks.swift */; };
 		5F935D1A1D43B97A00AAD613 /* SynchronousTCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D151D43B97A00AAD613 /* SynchronousTCPServer.swift */; };
 		5F935D1B1D43B97A00AAD613 /* SynchronousUDPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D161D43B97A00AAD613 /* SynchronousUDPServer.swift */; };
 		5F935D1C1D43B97A00AAD613 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D171D43B97A00AAD613 /* TCPClient.swift */; };
 		5F935D1D1D43B97A00AAD613 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D181D43B97A00AAD613 /* UDPClient.swift */; };
-		5F935D201D43B99000AAD613 /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935D0B1D43B95D00AAD613 /* Socks.framework */; };
 		5F935D5D1D43B9EC00AAD613 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D301D43B9EC00AAD613 /* Bar.swift */; };
 		5F935D5E1D43B9EC00AAD613 /* Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D321D43B9EC00AAD613 /* Console+LoadingBar.swift */; };
 		5F935D5F1D43B9EC00AAD613 /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D331D43B9EC00AAD613 /* LoadingBar.swift */; };
@@ -358,9 +338,7 @@
 		5F935D7D1D43B9EC00AAD613 /* Bool+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D5A1D43B9EC00AAD613 /* Bool+Polymorphic.swift */; };
 		5F935D7E1D43B9EC00AAD613 /* LinuxFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D5B1D43B9EC00AAD613 /* LinuxFixes.swift */; };
 		5F935D7F1D43B9EC00AAD613 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D5C1D43B9EC00AAD613 /* String+Trim.swift */; };
-		5F935D821D43B9FD00AAD613 /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935D261D43B9D600AAD613 /* Console.framework */; };
 		5F935D911D43BA2100AAD613 /* Strand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935D901D43BA2100AAD613 /* Strand.swift */; };
-		5F935D951D43BA3E00AAD613 /* Strand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935D881D43BA0F00AAD613 /* Strand.framework */; };
 		5F935DB91D43BA6700AAD613 /* ArrayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DA41D43BA6700AAD613 /* ArrayParser.swift */; };
 		5F935DBA1D43BA6700AAD613 /* BooleanParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DA51D43BA6700AAD613 /* BooleanParser.swift */; };
 		5F935DBB1D43BA6700AAD613 /* ByteReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DA61D43BA6700AAD613 /* ByteReader.swift */; };
@@ -382,15 +360,10 @@
 		5F935DCB1D43BA6700AAD613 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DB61D43BA6700AAD613 /* StringParser.swift */; };
 		5F935DCC1D43BA6700AAD613 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DB71D43BA6700AAD613 /* Types.swift */; };
 		5F935DCD1D43BA6700AAD613 /* ValueParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DB81D43BA6700AAD613 /* ValueParser.swift */; };
-		5F935DD01D43BA8A00AAD613 /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935D9B1D43BA5500AAD613 /* Jay.framework */; };
 		5F935DD31D43BAB000AAD613 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9358401D43A37400AAD613 /* Vapor.framework */; };
-		5F935DD61D43BD3D00AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
-		5F935DDB1D43BD8200AAD613 /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935CA81D43B3C500AAD613 /* Polymorphic.framework */; };
 		5F935DEB1D43F66300AAD613 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DEA1D43F66300AAD613 /* Provider.swift */; };
 		5F935DFC1D43F88900AAD613 /* MySQLDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DFA1D43F88900AAD613 /* MySQLDriver.swift */; };
 		5F935DFD1D43F88900AAD613 /* MySQLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935DFB1D43F88900AAD613 /* MySQLSerializer.swift */; };
-		5F935E001D43F8AD00AAD613 /* FluentMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935DF11D43F86F00AAD613 /* FluentMySQL.framework */; };
-		5F935E101D43F8ED00AAD613 /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935E061D43F8BC00AAD613 /* MySQL.framework */; };
 		5F935E1B1D43F90100AAD613 /* Bind+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E121D43F90100AAD613 /* Bind+Value.swift */; };
 		5F935E1C1D43F90100AAD613 /* Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E131D43F90100AAD613 /* Bind.swift */; };
 		5F935E1D1D43F90100AAD613 /* Binds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E141D43F90100AAD613 /* Binds.swift */; };
@@ -400,11 +373,10 @@
 		5F935E211D43F90100AAD613 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E181D43F90100AAD613 /* Field.swift */; };
 		5F935E221D43F90100AAD613 /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E191D43F90100AAD613 /* Fields.swift */; };
 		5F935E231D43F90100AAD613 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F935E1A1D43F90100AAD613 /* Value.swift */; };
-		5F935E331D44004100AAD613 /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C581D43B37500AAD613 /* Fluent.framework */; };
-		5F935E361D44038600AAD613 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
 		5F935E391D44044300AAD613 /* VaporMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935DE11D43F64500AAD613 /* VaporMySQL.framework */; };
-		5F935E3C1D44067E00AAD613 /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C581D43B37500AAD613 /* Fluent.framework */; };
-		5F935E3F1D4411BA00AAD613 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9358401D43A37400AAD613 /* Vapor.framework */; };
+		5FD4E0AE1D44CFA800E0F628 /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935B181D43ABF100AAD613 /* C7.framework */; };
+		5FD4E0AF1D44CFB600E0F628 /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935BA61D43ACE400AAD613 /* SocksCore.framework */; };
+		5FD4E0B11D44CFDF00E0F628 /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F935C581D43B37500AAD613 /* Fluent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -645,6 +617,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5F93583F1D43A37400AAD613;
 			remoteInfo = Vapor;
+		};
+		5FD4E0B21D44D02600E0F628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9358111D4391B600AAD613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F935B921D43AC9E00AAD613;
+			remoteInfo = libc;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1069,14 +1048,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935DD01D43BA8A00AAD613 /* Jay.framework in Frameworks */,
-				5F935D821D43B9FD00AAD613 /* Console.framework in Frameworks */,
-				5F935D201D43B99000AAD613 /* Socks.framework in Frameworks */,
-				5F935D051D43B8D700AAD613 /* SHA2.framework in Frameworks */,
-				5F935CFC1D43B87400AAD613 /* Fluent.framework in Frameworks */,
-				5F935CF61D43B81400AAD613 /* WebSockets.framework in Frameworks */,
-				5F935CE21D43B75100AAD613 /* HMAC.framework in Frameworks */,
-				5F935AD11D43AB0600AAD613 /* Engine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1084,9 +1055,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935BCD1D43AD0A00AAD613 /* SocksCore.framework in Frameworks */,
-				5F935B611D43AC7700AAD613 /* Base.framework in Frameworks */,
-				5F935B121D43ABD200AAD613 /* S4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1094,7 +1062,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935B511D43AC2600AAD613 /* C7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1109,7 +1076,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935BA01D43ACC100AAD613 /* libc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1131,9 +1097,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935CF91D43B83500AAD613 /* Engine.framework in Frameworks */,
-				5F935C431D43B31900AAD613 /* SocksCore.framework in Frameworks */,
-				5F935C111D43B11700AAD613 /* SHA1.framework in Frameworks */,
+				5FD4E0AF1D44CFB600E0F628 /* SocksCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1141,7 +1105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935C401D43B16900AAD613 /* CryptoEssentials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1156,8 +1119,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935CCF1D43B67800AAD613 /* PathIndexable.framework in Frameworks */,
-				5F935CBA1D43B3EF00AAD613 /* Polymorphic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1165,7 +1126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935CFF1D43B8A300AAD613 /* C7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1180,7 +1140,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935D021D43B8B700AAD613 /* CryptoEssentials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1188,7 +1147,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935CF31D43B7EC00AAD613 /* CryptoEssentials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1203,8 +1161,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935DDB1D43BD8200AAD613 /* Polymorphic.framework in Frameworks */,
-				5F935D951D43BA3E00AAD613 /* Strand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1219,7 +1175,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935DD61D43BD3D00AAD613 /* C7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1227,9 +1182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935E3F1D4411BA00AAD613 /* Vapor.framework in Frameworks */,
-				5F935E3C1D44067E00AAD613 /* Fluent.framework in Frameworks */,
-				5F935E001D43F8AD00AAD613 /* FluentMySQL.framework in Frameworks */,
+				5FD4E0B11D44CFDF00E0F628 /* Fluent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1237,9 +1190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F935E361D44038600AAD613 /* C7.framework in Frameworks */,
-				5F935E331D44004100AAD613 /* Fluent.framework in Frameworks */,
-				5F935E101D43F8ED00AAD613 /* MySQL.framework in Frameworks */,
+				5FD4E0AE1D44CFA800E0F628 /* C7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2966,6 +2917,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5FD4E0B31D44D02600E0F628 /* PBXTargetDependency */,
 				5F935DDA1D43BD7D00AAD613 /* PBXTargetDependency */,
 				5F935D941D43BA3500AAD613 /* PBXTargetDependency */,
 			);
@@ -4124,6 +4076,11 @@
 			isa = PBXTargetDependency;
 			target = 5F93583F1D43A37400AAD613 /* Vapor */;
 			targetProxy = 5F935E3D1D4411B500AAD613 /* PBXContainerItemProxy */;
+		};
+		5FD4E0B31D44D02600E0F628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F935B921D43AC9E00AAD613 /* libc */;
+			targetProxy = 5FD4E0B21D44D02600E0F628 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
